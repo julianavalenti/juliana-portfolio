@@ -1,4 +1,4 @@
-#projetos {
+#projects {
     background-color: rgb(76,105,119);
     height: 100vh;  
     display: flex;
@@ -62,15 +62,15 @@
     color: #493737;
 }
 
-/* .projetos {
+/* .projects {
     padding-top: 93px;
 }
 
-.projetos h2, .projetos a {
+.projects h2, .projects a {
     text-align: center;
 }
 
-.projetos h2 {
+.projects h2 {
     padding-bottom: 70px;
 } */
 
@@ -99,7 +99,7 @@ button:hover {
     gap: 35px;
 }
 
-.projetos a {
+.projects a {
     display: inline;
     width: 400px;
     filter: grayscale(100%);
@@ -143,7 +143,7 @@ button:hover {
     transition: 1000ms;
 }
 
-.projetos-itens {
+.projects-itens {
     display: flex;
     flex-wrap: wrap;
     gap: 29.5px;
@@ -152,18 +152,18 @@ button:hover {
 }
 
 @media (max-width:1200px) {
-  .projetos{
+  .projects{
       text-align: center;
       display: flex;
       flex-direction: column;
   }
 
-  #projetos {
+  #projects {
       display: flex;
       justify-content: center;
   }
 
-  .projetos-itens {
+  .projects-itens {
       flex-direction: column;
   }
 

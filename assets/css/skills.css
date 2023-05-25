@@ -1,12 +1,12 @@
-#habilidades {
+#skills {
     background-color: #493737;
 }
 
-.habilidades-pd {
+.skills-pd {
     padding-top: 93px;
 }
 
-.habilidades-pd h2 { 
+.skills-pd h2 { 
     text-align: center;
     padding-bottom: 70px;
 }
@@ -59,7 +59,7 @@
         height: 260px;
     }
 
-    #habilidades {
+    #skills {
         display: flex;
         justify-content: center;
     }
@@ -94,7 +94,7 @@
 
 }
 
-.skill-box .icones-habilidades {
+.skill-box .icones-skills {
     transition: ease-in-out 0.3s;
 }
 
