@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quando&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -30,8 +29,10 @@
 
 .icons {
     display: flex;
-    gap: 25px;
+    gap: 55px;
+    
 }
+
 
 @media (max-width:1200px) {
     .contato-creditos{
@@ -46,32 +47,6 @@
    
 }
 
-.links1, .links2 {
-    height: 52px;
-    width: 52px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    transition: 0.7s;
-}
 
-.links:hover {
-    transform: rotate(-360deg);
-}
 
-.links1 {
-    background-image: url(../img/githubff2.svg);
-}
 
-.links2 {
-    background-image: url(../img/linkedinff2.svg);
-}
-
-.transparente {
-    transition: ease-in-out 0.3s;
-}
-
-.transparente:hover {
-    opacity: 0;
-}

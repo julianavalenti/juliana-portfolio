@@ -5,6 +5,7 @@ ul {
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
+    
 }
 
 nav {
@@ -17,10 +18,13 @@ a {
     color: #c78e8b;
     font-size: 15.2061px;
     transition: ease-in-out 0.3s;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 a:hover {
- color: rgb(208, 255, 0);
+ color: rgb(8, 53, 107);
 }
 
 
@@ -30,7 +34,7 @@ a:hover {
 
 .bar {
     width: 100%;
-    height: 50px;
+    height: 70px;
     background: rgba(196, 196, 196, 0.11);
     backdrop-filter: blur(10px);
     position: fixed;
