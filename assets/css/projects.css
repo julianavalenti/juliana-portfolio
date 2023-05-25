@@ -2,7 +2,8 @@
     background-color: rgb(76,105,119);
     width: 100%;
     height: 100vh;  
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
@@ -15,7 +16,7 @@
     justify-self: center;
 }
 .card {
-    position: relative;
+    /* position: relative; */
     width: 500px;
     height: 200px;
     border-radius: 10px;
@@ -33,7 +34,7 @@
 }
 
 .imgbox {
-    position: relative;
+    /* position: relative; */
     width: 400px;
     height: 100%;
     transform: translateY(-80px) ;
@@ -44,10 +45,10 @@
 
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  
+  grid-template-columns: 1fr 1fr ;
+  gap:20px;
   width: 100vw;
-  position: absolute;
+  
   
   padding-top: 200px;
   

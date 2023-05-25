@@ -2,34 +2,33 @@
     width: 100%;
     height: 100vh;
     background-color: rgba(192,159,140);
-    display: flex;
     
     
 }
 .about-me{
     display: flex;
-    flex-direction: column;
+    padding-top: 200px;
+    width: 100%;
     justify-content: left;
 }
-.ajustador-2 {
-    padding: 144px 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 67px;
-    max-width: 1064px;
-    margin: 0 auto;
+
+.about-me-text{
+    background-color: rgb(243, 243, 246);
+    
+    flex-grow: 1;
 }
 
 h2 {
     font-family: 'Arial', cursive;
     font-size: 45px;
-    color: white;
+    color: rgb(22, 7, 7);
 }
 
 
 .map {
-    width: 600px;
-    float: left;
+    width: 500px;
+    margin: auto 0;
+    
     
 }
 @keyframes html {
@@ -61,8 +60,8 @@ h2 {
 .about-me p {
     text-indent: 30px;
     font-size: 20px;
-    max-width: 609.25px;
-    color: white;
+    /* max-width: 609.25px; */
+    color: rgb(8, 2, 2);
 }
 
 @media (max-width:1200px) {
