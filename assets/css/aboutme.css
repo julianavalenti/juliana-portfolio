@@ -7,9 +7,9 @@
     
 }
 .about-me{
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
 }
 .ajustador-2 {
     padding: 144px 0;
@@ -27,8 +27,9 @@ h2 {
 }
 
 
-.avatar-bg {
+.map {
     width: 600px;
+    float: left;
     
 }
 @keyframes html {

@@ -18,6 +18,8 @@
     background-color:rgb(98, 126, 139);
     cursor: pointer;
     margin: 10px;
+    /* float: left; */
+    /* flex: 30%; */
     
 }
 
