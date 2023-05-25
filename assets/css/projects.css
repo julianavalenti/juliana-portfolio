@@ -1,0 +1,176 @@
+#projetos {
+    background-color: rgb(76,105,119);
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ;
+    padding: 30px 50px;
+    background-color:rgb(98, 126, 139);
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+.card:hover{
+    height: 600px;
+}
+
+.imgbox {
+    position: relative;
+    width: 400px;
+    height: 100%;
+    transform: translateY(-80px) ;
+    z-index:99;
+    
+}
+
+.imgbox img{
+    width: 100%;
+    
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+}
+
+.content{
+    padding-top: 10px;
+    text-align: center;
+    transform: translateY(-300px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card:hover > .content {
+    opacity:1 ;
+    transform: translateY(-300px);
+}
+
+.content h2 {
+    color: #493737;
+}
+
+.content p {
+    color: #493737;
+}
+
+/* .projetos {
+    padding-top: 93px;
+}
+
+.projetos h2, .projetos a {
+    text-align: center;
+}
+
+.projetos h2 {
+    padding-bottom: 70px;
+} */
+
+button {
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #493737;
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: #a16c60;
+}
+
+.github-link {
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.projetos a {
+    display: inline;
+    width: 400px;
+    filter: grayscale(100%);
+}
+
+
+.pro {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.pro div p {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #C4C4C4;
+}
+
+.pro:hover {
+    letter-spacing: 5px;
+}
+
+.pro div {
+    background-color: #705656;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+
+.escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width:1200px) {
+  .projetos{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #projetos {
+      display: flex;
+      justify-content: center;
+  }
+
+  .projetos-itens {
+      flex-direction: column;
+  }
+
+}
+@media (max-width:950px) {
+    .pro {
+        max-width: 300px;
+    }
+
+}
