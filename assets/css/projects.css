@@ -81,7 +81,7 @@
 
 .card:hover > .content {
     opacity:1 ;
-    transform: translateY(-400px);
+    transform: translateY(-420px);
 }
 
 .content h2 {
