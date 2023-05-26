@@ -3,7 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Arial', serif;
+    font-family: 'Gruppo', sans-serif;
+    
     scroll-behavior: smooth;
 }
 
@@ -22,7 +23,7 @@
 
 .contato-creditos {
     color: white;
-    font-family: 'Arial', serif;
+    font-family: 'Gruppo', sans-serif;
     font-size: 15px;
     padding: 10px 0;
 }

@@ -79,10 +79,11 @@
 
 .card:hover > .content {
     opacity:1 ;
-    transform: translateY(-300px);
+    transform: translateY(-390px);
 }
 
 .content h2 {
+    padding: 10px;
     color: #493737;
     
     
@@ -150,7 +151,7 @@ button:hover {
 }
 
 .pro div p {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     font-size: 20px;
     color: #C4C4C4;
 }
