@@ -64,7 +64,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    clip-path: circle(180vh at 50% -80vh);
+    /* clip-path: circle(180vh at 50% -80vh); */
     
 }
 
