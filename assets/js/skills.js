@@ -1,14 +1,18 @@
 const skills = document.querySelectorAll('.skill-box');
 const descricao = document.querySelector('.texto-descricao');
 const aboutSkill = [
-                    '<p>HTML</p> <br> <p>É uma linguagem de marcação utilizada na construção de páginas na Web.</p> <br>',
-                    '<p>CSS</p> <br> <p>É um mecanismo para adicionar estilo a um documento web.</p> <br>',
-                    '<p>JavaScript</p> <br> <p>É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p> <br>',
-                    '<p>ReactJS</p> <br> <p>O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.</p> <br>',
-                    '<p>Styled Components</p> <br> <p>É uma biblioteca (lib) que utiliza o conceito de CSS-in-JS, ou seja, que nos permite escrever códigos CSS dentro do Javascript.</p> <br>',
+                    '<p>HTML</p> <br> <p>text about html </p> <br>',
+                    '<p>CSS</p> <br> <p>Text about CSS.</p> <br>',
+                    '<p>JavaScript</p> <br> <p>text about JavaScrpit.</p> <br>',
+                    '<p>JSON</p> <br> <p>text about json.</p> <br>',
+                    '<p>React</p> <br> <p>Text about react</p> <br>',
                     
-                    '<p>Git</p> <br> <p>É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.</p> <br>',
-                    '<p>Github</p> <br> <p>É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. </p> <br>'
+                    '<p>Python</p> <br> <p>text about python.</p> <br>',
+                    '<p>Git</p> <br> <p>text about git. </p> <br>',
+                    '<p>Mongodb</p> <br> <p>text about mongodb. </p> <br>',
+                    '<p>Postgres</p> <br> <p>text about Postgres </p> <br>',
+                    '<p>API</p> <br> <p>text about API. </p> <br>'
+                    
 ]
 const dataInicio = [
                     (new Date(2021, 10, 1)).getTime(), // 0
