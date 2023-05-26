@@ -36,7 +36,7 @@ The following JavaScript libraries were used in this project:
 
 - **Contact Section:** Add a contact section at the end of the page to provide a way to get in touch.
 
-
+- **Responsive Page:** Keep working in different screen sizes
 
 
 ## Deployment Link:
