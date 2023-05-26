@@ -1,12 +1,12 @@
 const meuNome = document.querySelector('.meu-nome');
 const fName = meuNome.innerHTML;
 const botaoVerMais = document.querySelector('button');
-const skills = document.querySelectorAll('.escondido');
+const skill = document.querySelectorAll('.escondido');
 const node = document.querySelector('#fundo')
 meuNome.innerHTML='';
 
 function cliqueVer (e) {
-    skills.forEach( (elemento) => {
+    skill.forEach( (elemento) => {
         if (elemento.classList.contains('escondido')) {
             elemento.classList.remove('escondido');
             elemento.classList.add('visivel');
@@ -19,9 +19,9 @@ function cliqueVer (e) {
     } )
 }
 
-function maisskills (elemento) {
-    elemento.addEventListener('click', cliqueVer)
-}
+// function maisskills (elemento) {
+//     elemento.addEventListener('click', cliqueVer)
+// }
 
 function typeWriter (nome) {
     setTimeout( () => {
@@ -36,5 +36,5 @@ function typeWriter (nome) {
 }
 
 // typeWriter(fName); 
-maisskills(botaoVerMais);
+// maisskills(botaoVerMais);
 
