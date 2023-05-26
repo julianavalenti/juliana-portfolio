@@ -17,6 +17,7 @@
     justify-content: start;
     gap:50px;
     padding-bottom: 70px;
+    
 }
 
 .conteiner-skills {
@@ -48,7 +49,7 @@
 
 .conteiner-descricao {
     color: white;
-    font-family: 'Gruppo', sans-serif;
+    font-family: 'Athiti', sans-serif;
     font-size: 20px;
     max-width: 40%;
 }

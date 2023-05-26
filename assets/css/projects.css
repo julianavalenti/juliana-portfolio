@@ -75,22 +75,26 @@
     transform: translateY(-300px);
     opacity: 0;
     transition: 0.3s;
+    text-align: justify;
+    
 }
 
 .card:hover > .content {
     opacity:1 ;
-    transform: translateY(-390px);
+    transform: translateY(-400px);
 }
 
 .content h2 {
-    padding: 10px;
-    color: #493737;
+    padding-bottom: 26px;
+    text-align: center;
+    color: #C4C4C4;
     
     
 }
 
 .content p {
-    color: #493737;
+    color: #f7f2f2;
+    font-family: 'Athiti', sans-serif;
 }
 
 /* .projects {
@@ -151,7 +155,7 @@ button:hover {
 }
 
 .pro div p {
-    font-family: 'Gruppo', sans-serif;
+    font-family: 'Athiti', sans-serif;
     font-size: 20px;
     color: #C4C4C4;
 }
