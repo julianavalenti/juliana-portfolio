@@ -59,6 +59,9 @@
   
 }
 
+.rep-link a {
+    text-align: center;
+}
 
 .imgbox img{
     width: 100%;

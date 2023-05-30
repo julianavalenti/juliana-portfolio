@@ -1,31 +1,25 @@
-const fadeImage = document.getElementById('fade-image');
-const textContainer = document.getElementById('text-container');
+var imageContainer = document.getElementById('image-container');
+var image = imageContainer.querySelector('img');
+var isInViewport = false;
 
-// Function to check if an element is in the viewport
-function isElementInViewport(element) {
-  const rect = element.getBoundingClientRect();
-  return (
-    rect.top >= 0 &&
-    rect.left >= 0 &&
-    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
+function checkVisibility() {
+  var rect = imageContainer.getBoundingClientRect();
+  isInViewport = rect.top <= window.innerHeight && rect.bottom >= 0;
 }
 
-// Function to handle scroll event
-function handleScroll() {
-  if (isElementInViewport(textContainer)) {
-    fadeImage.style.opacity = 0;
-    textContainer.classList.add('show');
-    // Remove the scroll event listener once the effect is applied
-    window.removeEventListener('scroll', handleScroll);
+function fadeOutImage() {
+  image.style.opacity = '0';
+}
+
+window.addEventListener('scroll', function() {
+  checkVisibility();
+  
+  if (isInViewport) {
+    fadeOutImage();
   }
-}
+});
 
-// Attach scroll event listener
-window.addEventListener('scroll', handleScroll);
-
-// Check if the "about-me" section is already in the viewport on page load
-if (isElementInViewport(textContainer)) {
-  handleScroll();
-}
+// Check visibility on page load
+window.addEventListener('load', function() {
+  checkVisibility();
+});

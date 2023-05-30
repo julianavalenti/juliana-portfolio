@@ -293,7 +293,7 @@ a:hover {
         font-size: 35px;
     }
 
-    /* configurando menu mobile */
+    /* mobile menu */
     .bar {
         display: block;
         position: fixed;
@@ -307,7 +307,7 @@ a:hover {
         z-index: 2;
         top: 2rem;
         right: 2rem;
-        background: #792e33;
+        background: #d9cfd0;
         color: white;
         font-size: 3rem;
         line-height:3rem;
@@ -336,5 +336,4 @@ a:hover {
     }
 
 }
-
 
