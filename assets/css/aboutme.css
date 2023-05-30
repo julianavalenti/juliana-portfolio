@@ -70,12 +70,18 @@
   
   .centered-text {
     text-align: center;
+    padding: 20px;
   }
   
-  .centered-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 11px;
+  
+    .centered-buttons {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 11px;
+      align-items: flex-end;
+      align-content: center;
+      flex-wrap: wrap;
+      flex-direction: row;
   }
   
   
@@ -124,6 +130,7 @@
 
 .about-me-p {
     text-align: justify;
+    margin: 15px;
 }
  .about-me-icons {
     display: flex;

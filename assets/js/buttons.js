@@ -7,7 +7,7 @@ function loadPage1() {
 
         '<h2 class="about-me-h2">ABOUT ME</h2>' +
 
-        '<p class="about-me-p">I possess a commanding bachelor\'s degree in psychology, with a strong foundation in neuroscience. Alongside my studies, I gained valuable experience as a student assistant, contributing to research projects and expanding my knowledge. Building on this academic success, I ventured into the field as a school psychologist, where I had the privilege of supporting and collaborating with over 360 students, as well as a dedicated team of 50+ teachers and staff.</p>' +
+        '<p class="about-me-p">I hold a bachelor\'s degree in psychology, with a strong foundation in neuroscience. Alongside my studies, I gained valuable experience as a student assistant, contributing to research projects and expanding my knowledge. Building on this academic success, I ventured into the field as a school psychologist, where I had the privilege of supporting and collaborating with over 360 students, as well as a dedicated team of 50+ teachers and staff.</p>' +
 
         '<br>' +
 
