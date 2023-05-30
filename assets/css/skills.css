@@ -1,35 +1,36 @@
+/* Existing CSS code */
+
 #skills {
     background-color: #493737;
     height: 100vh;
-}
-
-.skills-pd {
+  }
+  
+  .skills-pd {
     padding-top: 93px;
-}
-
-.skills-pd h2 { 
+  }
+  
+  .skills-pd h2 {
     text-align: center;
     padding-bottom: 70px;
-}
-
-.skills-descricao {
+  }
+  
+  .skills-descricao {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    gap:50px;
+    gap: 50px;
     padding-bottom: 70px;
-    
-}
-
-.conteiner-skills {
+  }
+  
+  .conteiner-skills {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 37px;
     max-width: 55%;
-}
-
-.skill-box {
+  }
+  
+  .skill-box {
     height: 106px;
     width: 106px;
     background-color: #C4C4C4;
@@ -41,123 +42,107 @@
     background-repeat: no-repeat;
     background-position: center;
     transition: ease 0.3s;
-}
-
-.skill-box:hover {
+  }
+  
+  .skill-box:hover {
     background-color: white;
     transform: scale(1.05);
-}
-
-.conteiner-descricao {
+  }
+  
+  .conteiner-descricao {
     color: white;
     font-family: 'Athiti', sans-serif;
     font-size: 20px;
     max-width: 40%;
-}
-
-@media (max-width:1200px) {
-
-    .conteiner-descricao {
-        height: 260px;
-    }
-
-    #skills {
-        display: flex;
-        justify-content: center;
-    }
-
+  }
+  
+  /* Trick 1: Use media queries for responsive adjustments */
+  
+  @media (max-width: 1200px) {
     .skills-descricao {
-        display: flex;
-        flex-direction: column-reverse;
-        /* width: 535px; */
-        margin: 0 auto;
-        gap:50px;
-        padding-bottom: 70px;
-        align-items: center;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 50px;
+      padding-bottom: 70px;
+      align-items: center;
     }
-
-    .skills-descricao p {
-        text-align: center;
-    }
-
-}
-@media (max-width:950px) {
-    .conteiner-skills {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 37px;
-        max-width: 300px;
-    }
-
+  
     .conteiner-descricao {
-        max-width: 300px;
+      max-width: 100%;
     }
-
-}
-
-.skill-box .icones-skills {
-    transition: ease-in-out 0.3s;
-}
-
-.skill-box:hover .icones-habilidades {
-    opacity: 0;
-}
-
-/* .skill1{
-    background-image: url(../img/html2.svg);
-}
-
-.skill2 {
-    background-image: url(../img/css2.svg);
-}
-
-.skill3 {
-    background-image: url(../img/js2.svg);
-}
-
-.skill4 {
-    background-image: url(../img/node2.svg);
-}
-
-.skill5 {
-    background-image: url(../img/php2.svg);
-}
-
-.skill6 {
-    background-image: url(../img/java2.svg);
-}
-
-.skill7 {
-    background-image: url(../img/react2.svg);
-}
-
-.skill8 {
-    background-image: url(../img/styled\ 2.svg);
-}
-
-.skill9 {
-    background-image: url(../img/git2.svg);
-}
-
-
-.skill10 {
-    background-image: url(../img/github2.svg);
-}
-
-.skill11 {
-    background-image: url(../img/bootstrap2.svg);
-}
-
-.skill12 {
-    background-image: url(../img/typescript2.svg);
-}
-
-.skill13 {
-    background-image: url(../img/sass2.svg);
-} */
-
-#fundo {
-    fill: red;
-}
-
+  
+    .conteiner-skills {
+      max-width: 100%;
+      justify-content: center;
+    }
+  
+    .skill-box {
+      max-width: 150px;
+      max-height: 150px;
+      width: 25vw;
+      height: 25vw;
+    }
+  }
+  
+  @media (max-width: 950px) {
+    .conteiner-skills {
+      max-width: 100%;
+    }
+  
+    .conteiner-descricao {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .skills-pd h2 {
+      padding-bottom: 40px;
+    }
+  
+    .conteiner-skills {
+      justify-content: space-evenly;
+    }
+  
+    .skill-box {
+      max-width: 100px;
+      max-height: 100px;
+      width: 20vw;
+      height: 20vw;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    .skills-pd {
+      padding-top: 60px;
+    }
+  
+    .skills-pd h2 {
+      padding-bottom: 30px;
+    }
+  
+    .skills-descricao {
+      gap: 30px;
+      padding-bottom: 40px;
+    }
+  
+    .conteiner-descricao {
+      max-width: 100%;
+    }
+  
+    .conteiner-skills {
+      max-width: 100%;
+    }
+  
+    .skill-box {
+      max-width: 80px;
+      max-height: 80px;
+      width: 16vw;
+      height: 16vw;
+    }
+    .icones-skills{
+        width: 20px;
+    }
+  }
+  
+  /* Rest of the CSS code */
+  

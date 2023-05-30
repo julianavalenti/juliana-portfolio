@@ -337,3 +337,100 @@ a:hover {
 
 }
 
+/* responsive test */
+
+
+@media (max-width: 390px) { /* iPhone 12 screen width */
+    ul {
+      justify-content: space-between;
+    }
+  
+    nav {
+      width: 100%;
+    }
+  
+    
+  
+    .bar {
+      height: auto;
+      padding: 10px;
+    }
+  
+    .conteiner-bar {
+      justify-content: center;
+    }
+  
+    .close-menu {
+      display: block;
+    }
+  
+    .open-menu {
+      display: none;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .menu.active {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+  
+    a {
+      padding: 10px 0;
+    }
+  
+    .altura-ajuste {
+      height: auto;
+    }
+  
+    .apresentacao {
+      max-width: 100%;
+      padding: 0 10px;
+      text-align: center;
+    }
+  
+    .descricao {
+      font-size: 20px;
+    }
+  
+    .meu-nome {
+      font-size: 40px;
+    }
+  
+    .linkedin {
+      width: 250px;
+      height: 70px;
+    }
+  
+    #pdfLink a {
+      font-size: 15px;
+    }
+  
+    .link {
+      font-size: 20px;
+      width: 100%;
+      padding: 8px 0;
+    }
+/*   
+    .avatar {
+      width: 400px;
+    } */
+    .avatar2 {
+        width: 300px;
+        
+    }
+
+    #home{
+        background-color: rgb(247, 245, 245) ;
+        height: 100vh;
+    }
+  }
+    
+
+
+  /* test */
+  
