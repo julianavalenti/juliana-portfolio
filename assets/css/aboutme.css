@@ -59,8 +59,15 @@
       
   
   
+.about-me-btn {
+  background-color: rgb(65, 25, 25);
+}
 
-  
+.about-me-btn:hover {
+  background-color: rgba(246, 225, 125, 0.4);
+  color:rgb(62, 31, 31);
+}
+
   .about-content {
     display: flex;
     flex-direction: column;
@@ -126,6 +133,8 @@
     font-family: 'Gruppo', sans-serif;
     font-size: 45px;
     color: rgb(9, 22, 72);
+    text-align: center;
+    padding: 50px;
 }
 
 .about-me-p {
