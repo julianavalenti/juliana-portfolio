@@ -1,151 +1,128 @@
-
-   #about-me {
-    
-    align-items: center;
-    height: 100vh;
-    
-  }       
-    
-    
-  #text-container {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+#about-me {
+  align-items: center;
+  height: 100vh;
 }
-.about-me{
-   
-    
-    width: 100vw;
-   
-   
+
+#text-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-me {
+  width: 100vw;
 }
 
 .about-menu {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 20px;
-    width: fit-content;
-    
-    box-shadow: rgba(246, 225, 125, 0.4) -5px 5px, rgba(246, 225, 125, 0.3) -10px 10px, rgba(246, 225, 125, 0.2) -15px 15px, rgba(246, 225, 125, 0.1) -20px 20px, rgba(246, 225, 125, 0.05) -25px 25px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+  width: fit-content;
+  
+  box-shadow: rgba(246, 225, 125, 0.4) -5px 5px, rgba(246, 225, 125, 0.3) -10px 10px, rgba(246, 225, 125, 0.2) -15px 15px, rgba(246, 225, 125, 0.1) -20px 20px, rgba(246, 225, 125, 0.05) -25px 25px;
 }
-      
-      
-  
-  
 
-  
-  .about-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* height: 800px; */
-  }
-  
-  .centered-text {
-    text-align: center;
-  }
-  
-  .centered-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 11px;
-  }
-  
-  
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 800px; */
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.centered-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+}
 
 .about-me-text {
-    
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    width: 400px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
 }
-  
-  .about-me-avatar {
-    flex: 0 0 auto;
-    margin-right: 20px;
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-  }
-  
-  .about-me-intro {
-    width: 600px;
-  }
-  .about-me-text h2,
-  .about-me-text p {
-    flex: 1;
-  }
-  
 
-
-.about-me-h1{
-   text-align: center;
-   padding: 10px;
+.about-me-avatar {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
 }
+
+.about-me-intro {
+  width: 90%;
+  max-width: 600px;
+}
+
+.about-me-text h2,
+.about-me-text p {
+  flex: 1;
+}
+
+.about-me-h1 {
+  text-align: center;
+  padding: 10px;
+}
+
 .about-me-h2 {
-    font-family: 'Gruppo', sans-serif;
-    font-size: 45px;
-    color: rgb(9, 22, 72);
-    text-align: center;
-    padding-top: 50px;
+  font-family: 'Gruppo', sans-serif;
+  font-size: 3rem;
+  color: rgb(9, 22, 72);
+  text-align: center;
+  padding-top: 50px;
 }
 
 .about-me-p {
-    text-align: justify;
+  text-align: justify;
+  font-size: 1.25rem;
 }
- .about-me-icons {
-    display: flex;
-    flex-direction: row;
-    justify-items: right;
-    align-items: right;
-    margin-left: 700px;
-    
+
+.about-me-icons {
+  display: flex;
+  flex-direction: row;
+  justify-items: right;
+  align-items: right;
+  margin-left: auto;
 }
-.map img {
-    width: 700px;
-    padding-top: 100px;
-    margin-left: 200px;
-    margin-bottom: 0;
-    
-    
-    
-    
-}
+
 @keyframes html {
-    0% {
-        bottom: 0;
-        left: 250px;
-    }
-    100% {
-        bottom: 0;
-        left: 50px;
-    }
+  0% {
+    bottom: 0;
+    left: 2.5rem;
+  }
+  100% {
+    bottom: 0;
+    left: 0.5rem;
+  }
 }
 
 @keyframes css {
-    0% {
-        bottom: 0;
-        left: 50px;
-    }
-    100% {
-        bottom: 0;
-        left: 250px;
-    }
+  0% {
+    bottom: 0;
+    left: 0.5rem;
+  }
+  100% {
+    bottom: 0;
+    left: 2.5rem;
+  }
 }
-
-
-
-
 
 .about-me p {
-    text-indent: 30px;
-    font-size: 20px;
-    /* max-width: 609.25px; */
-    color: rgb(8, 2, 2);
+  text-indent: 1.5rem;
+  font-size: 1.25rem;
+  /* max-width: 609.25px; */
+  color: rgb(8, 2, 2);
 }
+
 
 @media (max-width:1200px) {
     .ajustador-2 {

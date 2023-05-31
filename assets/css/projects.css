@@ -222,4 +222,8 @@
     .pro div p {
       font-size: 16px;
     }
+
+    #projects{
+        height: 100vh;
+    }
   }
