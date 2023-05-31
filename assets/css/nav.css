@@ -126,7 +126,7 @@ a:hover {
 
 /* My photo at the first page */
 .avatar {
-    width: 500px;
+    /* width: 500px; */
     
     grid-area: avatar;
    

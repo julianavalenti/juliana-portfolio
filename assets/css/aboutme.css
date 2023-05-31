@@ -2,7 +2,7 @@
 
 #about-me {
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 #text-container {
@@ -178,4 +178,27 @@
     margin-left: 0;
     justify-content: center;
   }
+  #about-me {
+    align-items: center;
+    
+}
+.about-menu {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+  width: fit-content;
+  box-shadow: rgba(246, 225, 125, 0.4) -5px 5px, rgba(246, 225, 125, 0.3) -10px 10px, rgba(246, 225, 125, 0.2) -15px 15px, rgba(246, 225, 125, 0.1) -20px 20px, rgba(246, 225, 125, 0.05) -25px 25px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-intro {
+  margin-top: 150px;
+}
+
 }
