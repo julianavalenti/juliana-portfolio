@@ -154,7 +154,7 @@
     
 }
   
-@media(max-width:390px){
+@media(max-width:428px){
   .about-me-avatar {
     flex: 0 0 auto;
     width: auto;
