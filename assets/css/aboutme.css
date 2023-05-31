@@ -187,29 +187,21 @@
 
 #text-container {
   display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  /* height: 100vh; */
   flex-direction: column;
 }
 .about-me-p {
-  text-align: justify;
   font-size: 10px;
   margin: 15px;
 }
 
 .centered-buttons {
   display: flex;
-  justify-content: center;
-  gap: 11px;
   flex-direction: column;
+  margin-left: 15px;
+  
 }
 .about-menu {
   display: flex;
-  /* grid-template-columns: auto 1fr; */
-  grid-gap: 20px;
-  width: fit-content;
   flex-direction: column-reverse;
 }
 
@@ -226,10 +218,11 @@
 
 .about-me-h2{
   text-align: center;
-  margin-top: 100px;
+  
 }
 
 #about-me{
   height: 100vh;
 }
+
 }
