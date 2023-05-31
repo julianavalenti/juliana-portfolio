@@ -228,6 +228,7 @@ a:hover {
     #home {
         display: flex;
         justify-content: center;
+        background-color: #d9cfd0;
     }
 
     .avatar {

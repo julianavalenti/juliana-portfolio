@@ -1,8 +1,188 @@
-/* Existing CSS code */
 
-#about-me {
-  align-items: center;
-  /* height: 100vh; */
+   #about-me {
+    
+    align-items: center;
+    height: 100vh;
+    
+  }       
+    
+    
+  #text-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.about-me{
+   
+    
+    width: 100vw;
+   
+   
+}
+
+.about-menu {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    width: fit-content;
+    
+    box-shadow: rgba(246, 225, 125, 0.4) -5px 5px, rgba(246, 225, 125, 0.3) -10px 10px, rgba(246, 225, 125, 0.2) -15px 15px, rgba(246, 225, 125, 0.1) -20px 20px, rgba(246, 225, 125, 0.05) -25px 25px;
+}
+      
+      
+  
+  
+
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 800px; */
+  }
+  
+  .centered-text {
+    text-align: center;
+  }
+  
+  .centered-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+  }
+  
+  
+
+.about-me-text {
+    
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+}
+  
+  .about-me-avatar {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .about-me-intro {
+    width: 600px;
+  }
+  .about-me-text h2,
+  .about-me-text p {
+    flex: 1;
+  }
+  
+
+
+.about-me-h1{
+   text-align: center;
+   padding: 10px;
+}
+.about-me-h2 {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 45px;
+    color: rgb(9, 22, 72);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about-me-p {
+    text-align: justify;
+}
+ .about-me-icons {
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    align-items: right;
+    margin-left: 700px;
+    
+}
+.map img {
+    width: 700px;
+    padding-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 0;
+    
+    
+    
+    
+}
+@keyframes html {
+    0% {
+        bottom: 0;
+        left: 250px;
+    }
+    100% {
+        bottom: 0;
+        left: 50px;
+    }
+}
+
+@keyframes css {
+    0% {
+        bottom: 0;
+        left: 50px;
+    }
+    100% {
+        bottom: 0;
+        left: 250px;
+    }
+}
+
+
+
+
+
+.about-me p {
+    text-indent: 30px;
+    font-size: 20px;
+    /* max-width: 609.25px; */
+    color: rgb(8, 2, 2);
+}
+
+@media (max-width:1200px) {
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+    .about-me p {
+        text-indent: 0;
+    }
+}
+
+@media(max-width:950px){
+
+    
+    .ajustador-2 {
+        max-width: 350px;
+        padding: 70px 30px;
+    }
+
+    
+}
+  
+@media(max-width:390px){
+  .about-me-avatar {
+    flex: 0 0 auto;
+    width: auto;
+    height: 150px;
+    object-fit: cover;
 }
 
 #text-container {
@@ -10,34 +190,31 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
+  flex-direction: column;
+}
+.about-me-p {
+  text-align: justify;
+  font-size: 10px;
+  margin: 15px;
 }
 
-.about-me {
-  width: 100vw;
+.centered-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+  flex-direction: column;
 }
-
 .about-menu {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  /* grid-template-columns: auto 1fr; */
   grid-gap: 20px;
   width: fit-content;
-  box-shadow: rgba(246, 225, 125, 0.4) -5px 5px, rgba(246, 225, 125, 0.3) -10px 10px, rgba(246, 225, 125, 0.2) -15px 15px, rgba(246, 225, 125, 0.1) -20px 20px, rgba(246, 225, 125, 0.05) -25px 25px;
+  flex-direction: column-reverse;
 }
 
-.about-me-btn {
-  background-color: rgb(65, 25, 25);
-}
-
-.about-me-btn:hover {
-  background-color: rgba(246, 225, 125, 0.4);
-  color: rgb(62, 31, 31);
-}
-
-.about-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.about-me-intro {
+  width: 300px;
 }
 
 .centered-text {
@@ -45,160 +222,14 @@
   padding: 20px;
 }
 
-.centered-buttons {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 11px;
-  align-items: flex-end;
-  align-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
 
-.about-me-text {
-  align-items: center;
-  flex-direction: column;
+
+.about-me-h2{
   text-align: center;
-  width: 400px;
+  margin-top: 100px;
 }
 
-.about-me-avatar {
-  flex: 0 0 auto;
-  margin-right: 20px;
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
+#about-me{
+  height: 100vh;
 }
-
-.about-me-intro {
-  width: 600px;
-}
-
-.about-me-text h2,
-.about-me-text p {
-  flex: 1;
-}
-
-.about-me-h2 {
-  font-family: 'Gruppo', sans-serif;
-  font-size: 45px;
-  color: rgb(9, 22, 72);
-  text-align: center;
-  padding: 50px;
-}
-
-.about-me-p {
-  text-align: justify;
-  margin: 15px;
-}
-
-.about-me-icons {
-  display: flex;
-  flex-direction: row;
-  justify-items: right;
-  align-items: right;
-  margin-left: 700px;
-}
-
-.map img {
-  width: 700px;
-  padding-top: 100px;
-  margin-left: 200px;
-  margin-bottom: 0;
-}
-
-/* Trick 1: Use max-width instead of fixed width */
-.about-me {
-  max-width: 100%;
-}
-
-.about-me-avatar {
-  width: 100%;
-}
-
-.about-me-intro {
-  max-width: 100%;
-}
-
-.map img {
-  max-width: 100%;
-  margin-left: 0;
-}
-
-/* Trick 2: Use relative units for font sizes */
-.about-me-h2 {
-  font-size: 3rem;
-  padding: 2rem;
-}
-
-.about-me-p {
-  font-size: 1.6rem;
-  margin: 1rem;
-}
-
-.centered-text {
-  padding: 1rem;
-}
-
-/* Trick 3: Use flexbox and media queries for responsive layouts */
-.about-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.centered-buttons {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 11px;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-@media (min-width: 768px) {
-  .centered-buttons {
-    flex-direction: row;
-  }
-}
-
-@media (max-width: 480px) {
-  .about-me-h2 {
-    font-size: 2rem;
-    padding: 1rem;
-  }
-
-  .about-me-p {
-    font-size: 1.2rem;
-    margin: 0.5rem;
-  }
-
-  .about-me-icons {
-    margin-left: 0;
-    justify-content: center;
-  }
-  #about-me {
-    align-items: center;
-    
-}
-.about-menu {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap: 20px;
-  width: fit-content;
-  box-shadow: rgba(246, 225, 125, 0.4) -5px 5px, rgba(246, 225, 125, 0.3) -10px 10px, rgba(246, 225, 125, 0.2) -15px 15px, rgba(246, 225, 125, 0.1) -20px 20px, rgba(246, 225, 125, 0.05) -25px 25px;
-}
-
-.about-content {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-me-intro {
-  margin-top: 150px;
-}
-
 }
