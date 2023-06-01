@@ -83,7 +83,7 @@ function loadPage3() {
                     <div class="about-menu">
                         <img class="about-me-intro" src="assets/img/IMG_3485.jpg" alt="click">
                         <div class="about-content">
-                            <p class="centered-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sit, earum error ab delectus id, incidunt cumque possimus accusamus eligendi excepturi quis temporibus sint corrupti molestiae commodi nemo, expedita debitis.</p>
+                        <p class="centered-text">Passionate software engineer with a multicultural background and a psychology foundation. Former school psychologist collaborating with diverse teams and supporting over 360 students. Combining my passion for photography with a fascination for technology and user behavior. Thrilled to create innovative solutions and shape the digital landscape.</p>
                             <div class="centered-buttons">
                                 <button class="about-me-btn" onclick="loadPage1()">Professional Experience</button>
                                 <button class="about-me-btn" onclick="loadPage2()">Cultural Experience</button>
