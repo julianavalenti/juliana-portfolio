@@ -1,6 +1,6 @@
 const contactFormHTML = `
 <div id="container">
-  <h1>&bull; Keep in Touch &bull;</h1>
+  <h1 class="contact-title">Want to talk about future opportunities?</h1>
   <div class="underline">
   </div>
   <div class="icon_wrapper">

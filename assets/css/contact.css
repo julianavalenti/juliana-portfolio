@@ -1,5 +1,10 @@
+body{
+    background: rgb(247, 245, 245);
+}
 
-
+#formContainer{
+    background: rgb(247, 245, 245);
+}
 
 button {
   overflow: visible;
@@ -31,21 +36,17 @@ form {
   margin: 50px 0;
 }
 
-h1 {
+.contact-title {
   color: #474544;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 700;
   letter-spacing: 7px;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Gruppo', sans-serif;
+  padding-top: 10%;
 }
 
-.underline {
-  border-bottom: solid 2px #474544;
-  margin: -0.512em auto;
-  width: 80px;
-}
 
 
 
