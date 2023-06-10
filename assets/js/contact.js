@@ -34,7 +34,6 @@ const contactFormHTML = `
 
 const formContainer = document.getElementById("formContainer");
 
-// Insert the contact form HTML into the container element
 formContainer.innerHTML = contactFormHTML;
 
 
